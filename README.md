@@ -43,41 +43,21 @@ User inputs preferences through sidebar selection.
 Outputs top recommended restaurants dynamically.
 
 📂 Project Structure
-bash
-Copy
-Edit
+
 restaurant-recommendation/
 │
 ├── cleaned_data.csv            # Cleaned restaurant dataset
-├── encoded_data.csv             # One-hot encoded dataset
-├── encoder.pkl                  # Saved OneHotEncoder object
-├── app.py                       # Streamlit application
+├── encoded_data.csv             # Encoded dataset
+├── encoder.pkl                  # Saved OneHotEncoder
+├── app.py                       # Streamlit web app
 ├── README.md                    # Project documentation
-└── requirements.txt             # Project dependencies (optional)
-🚀 How to Run Locally
-Clone the Repository
+├── requirements.txt             # Python dependencies
+└── (optional) screenshots/      # Folder if you add Streamlit app screenshots
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/restaurant-recommendation.git
-cd restaurant-recommendation
-Install Dependencies
 
-bash
-Copy
-Edit
-pip install pandas scikit-learn streamlit
-(You can also include a requirements.txt file.)
 
-Run the Streamlit App
 
-bash
-Copy
-Edit
-streamlit run app.py
-Open your browser and navigate to:
-http://localhost:8501
+
 
 🎯 Results
 Interactive Streamlit app for personalized restaurant recommendations.
@@ -88,8 +68,6 @@ Cosine similarity-based recommendation engine.
 
 Fully beginner-friendly and expandable project.
 
-📊 Sample Screenshot
-(You can add a screenshot of your Streamlit app here after running it.)
 
 ✨ Future Enhancements
 Include external data (e.g., weather, holidays) to enhance recommendations.
